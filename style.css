@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    height: 700px;
+    background-image: url(/images/ivan-aleksic-PDRFeeDniCk-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* @media screen and (max-width:559px) {
+    .body{
+        margin: auto;
+        justify-content: center;
+    }
+} */
+.content{
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin-right: 40px;
+    margin-top: 40px;
+    border-radius: 5px;
+    float: right;
+    padding: 30px;
+}
+
+.logo{
+    height: 40px;
+    width: 50px;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-image: url(/images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.contentText{
+    width: 400px;
+    height: 135px;
+    margin: 10px;
+    color: rgb(16, 16, 132);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card1{
+    width: 480px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    box-shadow: 0 2px 18px -5px rgb(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.card1:hover{
+    border: 1px solid blue;
+}
+
+.card1logo{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #E4E4FF;
+    padding: 10px;
+}
+.card1text{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    color: rgb(184, 184, 148);
+    cursor: pointer;
+}
+
+.card2{
+    width: 480px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    box-shadow: 0 2px 18px -5px rgb(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.card2:hover{
+    border: 1px solid blue;
+}
+
+.card2logo{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #E4E4FF;
+    padding: 10px;
+}
+.card2text{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    color: rgb(184, 184, 148);
+    cursor: pointer;
+}
+
+.card3{
+    width: 480px;
+    height: 80px;
+    margin: 10px;
+    display: flex;
+    box-shadow: 0 2px 18px -5px rgb(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.card3:hover{
+    border: 1px solid blue;
+}
+
+.card3logo{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #E4E4FF;
+    padding: 10px;
+}
+.card3text{
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    color: rgb(184, 184, 148);
+    cursor: pointer;
+}
+
+.footer{
+    width: 450px;
+    height: 35px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: smaller;
+    text-align: center;
+}
